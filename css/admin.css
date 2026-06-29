@@ -1,0 +1,35 @@
+/* تنسيقات الجداول في لوحة التحكم */
+.admin-table-container {
+    max-height: 500px;
+    overflow-y: auto;
+}
+.admin-table-container::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+.admin-table-container::-webkit-scrollbar-track {
+    background: #f1f5f9;
+    border-radius: 4px;
+}
+.admin-table-container::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 4px;
+}
+.admin-table-container::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
+
+/* تنسيقات الكروت الإحصائية */
+.stat-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.stat-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+/* نوافذ تسجيل الدخول والعمليات المنبثقة */
+.modal-backdrop {
+    background-color: rgba(15, 23, 42, 0.75);
+    backdrop-filter: blur(4px);
+}
