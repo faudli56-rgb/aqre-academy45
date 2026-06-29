@@ -8,7 +8,14 @@ var globalAds = [
     { title: "الدفعة الجديدة للغة الإنجليزية", type: "إعلان عادي", date: "مستمر", img: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?q=80&w=800", link: "#" }
 ];
 var currentAdIndex = 0;
-
+function renderCourses(data) {
+    // تحقق هل نحن في صفحة الدورات فعلاً قبل العرض
+    if (!document.getElementById('page-courses')) return; 
+    
+    const container = document.getElementById('courses-container');
+    container.innerHTML = ''; // تنظيف الحاوية لمنع التكرار
+    // ... كود العرض
+}
 // نظام حماية التخزين لمتصفحات الجوال (مثل سامسونج)
 function safeSetStorage(key, value) {
     try { localStorage.setItem(key, value); } 
