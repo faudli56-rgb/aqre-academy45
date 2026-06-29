@@ -1,4 +1,4 @@
-const API_URL = "https://script.google.com/macros/s/AKfycbxMog8gTa9QaTUX_36_RapCB4G0H4lyDTnr_n7X6BA76WDXp0343rfTnGA1yZ-uD8mzYg/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbxMog8gTa9QaTUX_36_RapCB4G0H4lyDTnr_n7X6BA76WDXp0343rfTnGA1yZ-uD8mzYg/exec
 
 // ==========================================
 // --- جلب بيانات الدورات والأخبار ---
